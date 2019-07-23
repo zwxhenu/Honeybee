@@ -1,5 +1,4 @@
 <?php
-
 return [
 
     /*
@@ -14,7 +13,7 @@ return [
     */
 
     'paths' => [
-        base_path('app/views'),
+        base_path('app/Views'),
     ],
 
     /*

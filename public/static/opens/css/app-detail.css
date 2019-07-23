@@ -1,0 +1,129 @@
+.select {
+	display:block;
+	float:left;
+	margin-right:10px
+}
+.disabled input {
+	cursor:not-allowed;
+	background-color:#fff;
+	border-color:#CCC;
+	color:#999
+}
+textarea[readonly],.disabled textarea {
+	cursor:default;
+	color:#999;
+	background-color:#fff
+}
+.msg-tip {
+	margin-left:10px
+}
+.edit {
+	display:none
+}
+a {
+	color:#05A;
+	text-decoration:none
+}
+a:hover {
+	color:#f27b04;
+	text-decoration:none
+}
+.piece {
+	margin-right:5px
+}
+.disabled .sub,.disabled .cancel {
+	display:none
+}
+.disabled .edit {
+	display:inline-block
+}
+.app-item {
+	font-size:14px;
+	margin-top:20px;
+	clear:both
+}
+.app-item .cont {
+	margin-top:8px
+}
+.app-item .cont .btn {
+	margin-left:10px;
+	padding:7px 15px
+}
+.app-item .label {
+	position:relative
+}
+.app-item .label .link {
+	position:absolute;
+	left:370px;
+	font-size:12px;
+	padding-right:15px
+}
+.select {
+	width:257px
+}
+.x-short {
+	width:12em
+}
+.shop-item {
+	margin:8px 0;
+	clear:both;
+	height:35px;
+	overflow:hidden
+}
+.shop-item .checkbox {
+	display:inline-block;
+	margin-right:20px;
+	margin-top:6px;
+	float:left;
+	width:104px
+}
+.shop-item .checkbox .s {
+	position:relative;
+	top:-4px
+}
+.shop-item .shop-input {
+	float:left;
+	display:inline-block;
+	width:500px
+}
+.shop-item .shop-input .s {
+	position:relative;
+	*top:-16px;
+	float:left;
+	line-height:31px;
+	line-height:33px\0
+}
+.shop-item input.x-short {
+	float:left;
+	margin:0 5px
+}
+.fileUpload {
+	padding:0
+}
+.shop-item .shop-input .msg-tip {
+	position:relative;
+	*top:6px;
+	*left:5px
+}
+.upload-info {
+	width:40em;
+	word-wrap:break-word
+}
+.btn {
+	*margin-bottom:13px
+}
+.cont .msg-tip {
+	*margin-bottom:0
+}
+.btn-primary {
+	*filter:progid:dximagetransform.microsoft.gradient(startColorstr='#0088cc', endColorstr='#0055cc', GradientType=0)
+}
+#cb-url,#cb-url2 {
+	height:67px
+}
+#cb-url .cont input,#cb-url2 .cont input {
+	float:left
+}
+#cb-url .cont .btn,#cb-url2 .cont .btn {
+	float:left
+}

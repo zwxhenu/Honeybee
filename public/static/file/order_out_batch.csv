@@ -1,0 +1,4 @@
+version 1.00,,
+order_sn(订单号),logistics_code(物流代码),logistics_order(快递单号)
+/900000291556,STO,/12312312312
+/900000291564,STO,/12312312312

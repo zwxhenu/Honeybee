@@ -1,0 +1,80 @@
+/* discount-edit */
+#dis_body{min-width:800px;}
+.orange_sp{color:orange;margin-left: 20px;}
+.error{color:red; opacity: 0.6; display:none;}
+.list_header{padding-left: 35px; height: 36px; line-height: 36px; background-color: #e8e8e8; border: 1px solid #ccc;}
+.goods_list_wrap{font-size: 12px;}
+.goods_list_wrap tbody tr{border: 1px solid #ddd; margin-bottom: 10px;}
+.goods_list_wrap th{font-weight: normal;}
+.banner{width:200px;height:120px;display: inline-block;cursor:pointer;border-radius: 5px;border: 1px solid #eee;}
+#banner{    margin-left: 124px;margin-top:2px;display:none}
+.input_item{text-indent: 5px;border: 1px solid #E5E6E7;vertical-align: middle;padding: 6px;font-size:14px;line-height: 30px;height:30px}
+.input-danwei{background-color: #fff;border: 1px solid #E5E6E7;border-radius: 1px;color: inherit;font-size: 14px;line-height: 30px;height:30px;font-weight: 400;padding: 6px 12px;text-align: center;vertical-align: middle;}
+#js-product-scope{display:none;}
+#js-product-list{margin-top:15px;}
+.btn-primary-new{background-color: #ffffff;border-color:#1ab394;color:#1ab394;}
+.btn-primary-new:hover{background-color: #1ab394;border-color:#1ab394;color:#ffffff;}
+.sel_item{padding: 5px;font-size: 12px;}
+.dropdown {
+    display: inline-block;
+}
+.dropdown .bgcolor-show {
+    border-radius: 2px;
+    display: inline-block;
+    height: 20px;
+    vertical-align: middle;
+    width: 60px;
+}
+
+.dropdown .bgcolor-show {
+    border-radius: 2px;
+    display: inline-block;
+    height: 20px;
+    vertical-align: middle;
+    width: 60px;
+}
+
+.dropdown .dropdown-toggle {
+    margin-bottom: 2px;
+}
+
+.dropdown .dropdown-menu {
+    padding: 0 5px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 4px;
+    margin: 0;
+    min-width: 152px;
+}
+
+.dropdown .dropdown-menu li {
+    cursor: pointer;
+    float: left;
+    height: 20px;
+    margin: 4px;
+    width: 20px;
+}
+
+.dropdown .dropdown-menu > li > a {
+    padding: 3px 15px;
+}
+
+.dropdown.hover:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown .btn {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+}
+
+.dropdown .btn .caret {
+    margin-left: 5px;
+}
+.ibox-left{float: left;font-size: 12px;font-weight: bold;padding: 2px 5px;}
+/* discount-index */
+.dis-pic{border-radius: 4px;width: 150px;height: 70px;}
+.fancybox img{width: 150px;}
+
+/* FlashSale */
+.inline-block{display:inline-block;}
+.tip{color:orangered;}

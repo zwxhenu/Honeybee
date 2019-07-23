@@ -1,0 +1,324 @@
+h1,h2,ul,li,dl,dt,dd,p{margin:0; padding:0; list-style: none; border:none;}
+.page-design{min-width: 900px;width: 900px;margin: 30px auto;}
+.page-design img,.sidebar img{max-width: 100%;width:auto;height:auto;}
+.preview{position: relative;float: left;width: 350px;background-color: #fff;border-radius: 15px 15px 0 0;margin-bottom:30px;}
+.sidebar{position: relative;float: left;width: 500px;margin-left: 10px;padding-bottom: 50px;font-size: 14px;margin-top:2px;}
+.sidebar::before,.sidebar::after{width: 0;height: 0;content:" ";border-style: solid;border-width: 6px 7px 6px 0;border-color: transparent #d1d1d1 transparent transparent;position: absolute;left: -6px;top: 110px;}
+.sidebar::after{border-right-color: #f8f8f8;left: -4px;}
+.sidebar-inner{padding: 12px;min-height: 40px;background: #f8f8f8;border-radius: 5px;border: 1px solid #d1d1d1;}
+.preview-widget{display: block;bottom: 0px;}
+.preview-header{width: 100%;height: 138px;background: url("../../img/shop/phone_head.png") no-repeat center /100% auto;position: relative;}
+.preview-title{top:-30px;cursor:pointer;color: #fff;font-size: 16px;font-weight: bold;left: 20%;position: absolute;text-align: center;width: 60%;}
+.preview-body,.body-content{border-left: 1px solid #ccc;border-right: 1px solid #ccc;}
+.preview-body{padding: 0 13px;}
+.body-content{border-bottom: 1px solid #ccc;min-height: 365px;padding: 2px 4px 20px; background-color:#f9f9f9;position:relative;}
+.preview-footer{height: 48px;background: url("../../img/shop/phone_bottom.png") no-repeat center /100% auto;}
+.preview-widget{clear: both;}
+.fr {
+	float: right;
+}
+.fl{float:left;}
+.app-config-nav-box {
+	padding-bottom: 60px;
+}
+
+.app-preview {
+	border-bottom-width: 1px;
+	border-radius: 18px;
+	position: relative;
+	float: left;
+	width: 350px;
+	box-sizing: border-box;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	border-top-width: 0;
+}
+
+
+
+.app-preview .app-header {
+	height: 138px;
+	background: url("../images/blue/tel_top_icon1.png") no-repeat scroll top
+	center
+}
+
+.app-preview .app-page-title {
+	color: #fff;
+	font-size: 16px;
+	overflow: hidden;
+	padding: 110px 90px 0;
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.app-preview .app-body {
+	width: 322px;
+	margin: 0 auto;
+	min-height: 200px;
+	border: 1px solid #c5c5c5;
+}
+
+.app-preview .app-nav-menu {
+	background-color: #fff;
+	position: relative;
+	padding-top: 380px;
+}
+
+.app-preview .app-nav,.app-preview .app-default-nav {
+	background-color: #f1f1f1;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+.app-preview .app-assist-nav{
+	background: none;
+	border-bottom:1px solid #e5e5e5;
+	margin:0 10px;
+	width:300px;
+}
+.app-preview .app-assist-nav li{
+	height:30px;
+	line-height:30px;
+}
+.app-preview .app-default-nav{
+	display:none;
+}
+.app-preview .app-nav-item {
+	float: left;
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	line-height: 50px;
+	height: 50px;
+}
+
+.app-preview .app-nav-item a {
+	font-size: 14px;
+	color: #191919
+}
+
+.sidebar .edit-nav-header {
+	padding: 10px 0;
+	border-bottom: 1px solid #E5E5E5;
+	line-height: 28px;
+}
+
+.sidebar .sub_btn_item {
+	padding: 0px 10px;
+}
+
+.sidebar .set-nav>li {
+	position: relative;
+	border: 1px solid #e5e5e5;
+	margin: 10px 0 0;
+	padding: 14px;
+	background: #fff;
+	zoom: 1;
+}
+
+.sidebar .set-nav li .action {
+	position: absolute;
+	z-index: 2;
+	top: -9px;
+	right: -9px;
+	width: 20px;
+	height: 20px;
+	font-size: 16px;
+	line-height: 18px;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	background: rgba(153, 153, 153, 0.6);
+	border-radius: 10px;
+}
+
+.sidebar .app-nav-image {
+	position: relative;
+	width: 64px;
+	float: left;
+}
+
+.sidebar .app-nav-active-image {
+	float: left;
+	padding-left: 15px;
+	margin-left: 15px;
+	border-left: 1px solid #e5e5e5;
+	width: 79px;
+}
+
+.sidebar .app-nav-image img,.sidebar .app-nav-active-image img {
+	width: 64px;
+	height: 50px;
+}
+
+.sidebar .app-nav-image p,.sidebar .app-nav-active-image p {
+	margin: 5px 0;
+}
+
+.sidebar .edit-image {
+	display: block;
+	height: 15px;
+	line-height: 17px;
+	font-size: 12px;
+	color: #fff;
+	cursor: pointer;
+	background: #797979;
+	text-align: center;
+}
+
+.sidebar .info {
+	margin: 15px 0;
+	color: #999;
+	font-size: 12px;
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 10px;
+}
+
+.sidebar .control-group-link {
+	font-size: 14px;
+}
+
+.sidebar .control-label {
+	font-weight: normal;
+	float: left;
+}
+
+.sidebar .controls .dropdown-box {
+	float: right;
+	position: relative;
+}
+
+.sidebar .dropdown-menu {
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 4px;
+	min-width: 110px;
+	left: auto;
+	right: 0;
+	margin: 0;
+	max-height:280px;
+	overflow: auto;
+}
+
+.sidebar .dropdown-menu li {
+	display: block;
+	padding: 3px 20px;
+	clear: both;
+	font-weight: normal;
+	line-height: 20px;
+	color: #333333;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+.sidebar .dropdown-menu li:hover {
+	background-color: #1ab394;
+	color: #fff;
+}
+
+.sidebar .first-nav h3 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.sidebar .app-nav-item {
+	position: relative;
+	height: 45px;
+	line-height: 25px;
+	background-color: #F8F8F8;
+	box-sizing: border-box;
+	padding: 10px 13px;
+	margin: 10px 0;
+	zoom: 1;
+}
+
+.sidebar .app-nav-item-title{
+	float: left;
+	width: 130px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	min-width: 100px;
+	padding:0 5px;
+	margin:0 5px;
+}
+.sidebar .app-nav-item-title:hover{
+	border: 1px solid #1c84c6;
+	border-radius: 3px;
+	background: #fff;
+}
+.sub-nav-list .app-nav-item-title{width: 100px;}
+
+.sidebar .app-nav-item-action {
+	float: left;
+}
+
+.sidebar .app-nav-item-split {
+	margin: 0 10px;
+	float: left;
+}
+
+.sidebar .add-app-nav {
+	height: 45px;
+	line-height: 45px;
+	padding: 0 13px;
+	margin: 10px 0 0 0;
+	border: 1px dashed #ccc;
+	background: #fff;
+	font-size: 13px;
+	text-align: center;
+	cursor: pointer;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.sidebar .sub-nav-list,.sidebar .sub{
+	  margin-left: 34px;
+}
+.sidebar .sub-nav-list li{
+	position:relative;
+}
+.sidebar h4{
+	font-weight:normal;
+	font-size:14px;
+	margin-left: 34px;
+}
+a.blk {
+	display: block
+}
+
+.choose-nav-style li {
+	float: left;
+	width: 320px;
+	background: #F8F8F8;
+	padding: 20px;
+	width: 320px;
+	margin: 10px;
+}
+
+.choose-nav-style li label {
+	font-weight: normal;
+}
+
+.choose-nav-style .nav-sample {
+	height: 40px;
+	margin-top: 12px;
+	background:url(../images/nav-sample.png) no-repeat 0 0;
+	background-size:100%;
+}
+.choose-nav-style .sample-nav{
+	background-position:0 -40px;
+}
+.choose-nav-style .sample-wechat{
+	background-position:0 0;
+}
+.long-text{width:250px;margin:0;}
+.link-to{
+	max-width: 125px;
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	vertical-align: middle;
+}
