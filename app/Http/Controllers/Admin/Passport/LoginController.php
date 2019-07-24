@@ -3,6 +3,7 @@
 namespace Honeybee\Http\Controllers\Admin\Passport;
 
 use Honeybee\Http\Controllers\Controller;
+use Illuminate\Http\Request;
 
 class LoginController extends Controller
 {
@@ -14,7 +15,7 @@ class LoginController extends Controller
      */
     public function login(Request $request)
     {
-        return view('front.passport.login');
+        return view('admin.passport.login');
     }
 
 }
