@@ -34,11 +34,23 @@ class Kernel implements KernelContract
      * @var array
      */
     protected $bootstrappers = [
+        // 环境监测 从 .env 文件中解析环境变量到 getevn(), $_ENV, $_SERVER 依赖 vlucas/phpdotenv 扩展包
         \Illuminate\Foundation\Bootstrap\LoadEnvironmentVariables::class,
+        // 载入 config 目录下所有 php 配置文件, 并将生成的配置存储类绑定到服务容器 $app['config'] 同时配置时区及 多字节格式(utf8)
         \Illuminate\Foundation\Bootstrap\LoadConfiguration::class,
+        // 报告所有错误 error_report(E_ALL) 提供对未捕获的异常, 错误的全局处理 set_error_handler, set_exception_handler, register_shutdown_function
         \Illuminate\Foundation\Bootstrap\HandleExceptions::class,
+        // 外观注册 从 app.aliases 中读取外观配置数组
+        // 使用 spl_autoload_register(...) 处理类加载, 配合 class_alias() 提供类的别名调用
+        // Facade 外观类基类依赖 __callStatic` 调用方法( 使用服务容器实例化对应类)
         \Illuminate\Foundation\Bootstrap\RegisterFacades::class,
+        // 服务提供者注册 从 app.providers 中读取所有服务提供者
+        // 服务提供者经过解析后分为 3 种类型的服务提供者
+        // 1、eager 类型 马上调用 register 注册
+        // 2、deferred 类型  记录下来, 当服务容器解析对应服务时, 才注册对应的服务提供者
+        // 3、when 类型 记录下来, 当对应 event 触发时在注册对应服务提供者
         \Illuminate\Foundation\Bootstrap\RegisterProviders::class,
+        // 启动提供者 调用服务容器的 boot() 方法, 依次调用在服务容器中 register 的所有服务提供者的 boot() 方法
         \Illuminate\Foundation\Bootstrap\BootProviders::class,
     ];
 
